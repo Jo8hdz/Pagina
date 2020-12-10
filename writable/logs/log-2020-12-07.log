@@ -1,0 +1,26 @@
+CRITICAL - 2020-12-07 10:54:30 --> Invalid argument supplied for foreach()
+#0 /Applications/XAMPP/xamppfiles/htdocs/Pagina/app/Views/tabla.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/X...', 8, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Pagina/system/View/View.php(246): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Pagina/system/Common.php(1119): CodeIgniter\View\View->render('tabla', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/Pagina/app/Controllers/Admin.php(59): view('tabla', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/Pagina/system/CodeIgniter.php(918): App\Controllers\Admin->tablaUsuarios()
+#5 /Applications/XAMPP/xamppfiles/htdocs/Pagina/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /Applications/XAMPP/xamppfiles/htdocs/Pagina/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/Pagina/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-07 11:42:49 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 /Applications/XAMPP/xamppfiles/htdocs/Pagina/system/Common.php(1119): CodeIgniter\View\View->render('tabla', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Pagina/app/Controllers/Admin.php(59): view('tabla', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/Pagina/system/CodeIgniter.php(918): App\Controllers\Admin->tablaUsuarios()
+#3 /Applications/XAMPP/xamppfiles/htdocs/Pagina/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 /Applications/XAMPP/xamppfiles/htdocs/Pagina/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/Pagina/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-07 11:46:49 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 /Applications/XAMPP/xamppfiles/htdocs/Pagina/system/Common.php(1119): CodeIgniter\View\View->render('tabla', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Pagina/app/Controllers/Admin.php(59): view('tabla', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/Pagina/system/CodeIgniter.php(918): App\Controllers\Admin->tablaUsuarios()
+#3 /Applications/XAMPP/xamppfiles/htdocs/Pagina/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 /Applications/XAMPP/xamppfiles/htdocs/Pagina/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/Pagina/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

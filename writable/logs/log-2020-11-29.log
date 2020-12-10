@@ -1,0 +1,27 @@
+CRITICAL - 2020-11-29 22:26:39 --> Invalid file: welcom_message.php
+#0 /opt/lampp/htdocs/Pagina/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcom_message....')
+#1 /opt/lampp/htdocs/Pagina/system/Common.php(1119): CodeIgniter\View\View->render('welcom_message', Array, true)
+#2 /opt/lampp/htdocs/Pagina/app/Controllers/Osito.php(7): view('welcom_message')
+#3 /opt/lampp/htdocs/Pagina/system/CodeIgniter.php(918): App\Controllers\Osito->index()
+#4 /opt/lampp/htdocs/Pagina/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Osito))
+#5 /opt/lampp/htdocs/Pagina/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/Pagina/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-29 22:27:19 --> Invalid file: welcom_message.php
+#0 /opt/lampp/htdocs/Pagina/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcom_message....')
+#1 /opt/lampp/htdocs/Pagina/system/Common.php(1119): CodeIgniter\View\View->render('welcom_message', Array, true)
+#2 /opt/lampp/htdocs/Pagina/app/Controllers/Osito.php(7): view('welcom_message')
+#3 /opt/lampp/htdocs/Pagina/system/CodeIgniter.php(918): App\Controllers\Osito->index()
+#4 /opt/lampp/htdocs/Pagina/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Osito))
+#5 /opt/lampp/htdocs/Pagina/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/Pagina/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-29 22:27:35 --> Invalid file: welcom_message.php
+#0 /opt/lampp/htdocs/Pagina/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcom_message....')
+#1 /opt/lampp/htdocs/Pagina/system/Common.php(1119): CodeIgniter\View\View->render('welcom_message', Array, true)
+#2 /opt/lampp/htdocs/Pagina/app/Controllers/Osito.php(7): view('welcom_message')
+#3 /opt/lampp/htdocs/Pagina/system/CodeIgniter.php(918): App\Controllers\Osito->index()
+#4 /opt/lampp/htdocs/Pagina/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Osito))
+#5 /opt/lampp/htdocs/Pagina/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/Pagina/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
